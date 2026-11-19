@@ -2,6 +2,10 @@
 
 > This repository mirrors the source of [biohybrid-heart-valve](https://github.com/datascintist-abusufian/biohybrid-heart-valve), which builds and deploys the live app. The earlier placeholder dashboard (random wear/damage simulator) has been removed.
 
+![Block diagram of the biohybrid heart valve digital twin](docs/digital_twin_block_diagram.svg)
+
+**Figure 1 | Biohybrid heart valve digital twin.** **a**, Data flow from routine echo and cuff measurements through inverse calibration to the patient-specific twin and its three analyses (haemodynamic read-out, lifetime durability, virtual repair planning). **b**, Closed-loop lumped-parameter circulation with dynamic (Mynard) valves, solved every 0.2 ms to periodic steady state. **c**, Sub-models for valve dynamics, structural valve deterioration (calibrated to Bourguignon 2015) and repair procedures. *Hypothetical biohybrid repair is labelled in the app.
+
 **Live app:** https://datascintist-abusufian.github.io/biohybrid-heart-valve/
 
 A physics-based digital twin of a biohybrid (bioprosthetic) aortic heart valve. It runs entirely in the browser. Every number comes from solving a published cardiovascular model, not from random or placeholder data.
